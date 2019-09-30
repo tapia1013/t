@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>10 Days | Todo</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&display=swap');
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body,
+    html {
+      background-color: #333;
+      font-family: 'Roboto', sans-serif;
+    }
+
+    .container {
+      width: 30%;
+      margin: 0 auto;
+      text-align: center;
+      font-size: 1.5rem;
+      background-color: #fff;
+    }
+
+    form {
+      margin-bottom: 30px;
+    }
+
+    ul li {
+      list-style: none;
+      font-size: 1rem;
+      color: rgb(19, 194, 19);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <h1>To-Do App</h1>
+    <form id="ourForm" action="">
+      <input id="ourField" type="text" autocomplete="off">
+      <button>Create Item</button>
+    </form>
+    <h3>Need To Do</h3>
+    <!--- give id to ul to send more li to ul --->
+    <ul id="ourList"></ul>
+  </div>
+
+
+  <script src="app.js"></script>
+</body>
+
+</html>
